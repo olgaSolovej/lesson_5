@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+
+body{
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.7;
+    background: rgb(238, 241, 241);
+}
+
+.wrapper{
+    min-height: 100%;
+	overflow: hidden;
+    
+}
+.header {    
+    background: wheat;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(66, 13, 3);
+}
+.header__logo{
+    display: inline-block;
+}
+.header__img{ 
+    width: 50px;
+    height: auto;  
+    padding-left: 10px;
+    padding-top: 20px;
+       
+}
+.header__menu{
+    display: inline-block;
+    
+    
+}
+
+.header__li{
+    
+    display: inline-block;
+    
+    
+}
+.main__title{
+    font-weight: 900;
+    font-size: 40px;
+    color:rgb(80, 3, 80); ;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+.main__img{
+    text-align: right;
+     
+}
+.main__fact{
+    display: inline-block;
+
+}
+.main__fact_p{    
+    display: inline-block;
+    background: rgba(245, 246, 246, 0.918);
+    max-width: 1600px;
+    max-height: 100px;
+    overflow: auto;
+    margin: 0 100px;
+}
+.main__fact_img{
+    display: block;
+    margin: 50px auto;
+    width: 600px;
+    height: auto;
+    
+    
+}
+.main__current_name{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(80, 3, 80);
+    text-shadow: 2px 5px 5px rgba(49, 32, 49, 0.39);
+
+}
+.main__current_img{
+    width: 400px;
+    height: auto;
+    margin:0 0 0 180px ;
+}
+.main__current_p{
+    margin: 0 0 0 100px;
+    display: inline-block;    
+    width: 500px;
+    height: 130px;
+    overflow: auto;
+}
+.main__current_p>p{
+    background: rgba(245, 246, 246, 0.918);   
+}
+.main__current_radio{    
+    margin: 10px 40px;
+    padding: 0 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: 2px solid rgb(1, 1, 51);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.main__current_image{
+    margin: 10px 200px;
+    width: auto;
+    height: 250px;
+    padding: 10px 30px;
+    border: 5px solid rgb(117, 81, 4);
+    box-shadow: 10px 10px 10px rgb(80, 51, 80);
+}
+.main__current_vordenklif{
+    max-width: 1500px;
+    max-height: 162px;
+    margin: 0 auto;
+    padding:30px 20px 0;
+    overflow: hidden;
+    background: rgba(235, 245, 215, 0.863);
+}
+.main__current_name.git{    
+    margin: 40px 10px 0;
+    text-align: right;
+    padding: 0 50px 0 0;
+}
+.main__current_fil{
+    margin: 10px -50px 50px 700px;
+    padding: 0 0 30px 700px;
+    text-decoration: underline  rgb(238, 72, 7);
+}
+.footer{
+     display: inline-block;     
+}
+
+.footer__time{
+    display: inline-block;
+    padding-left: 100px;   
+    
+}
+
+a {
+    color: rgb(12, 5, 107);
+    text-shadow: 1px 3px 5px rgb(142, 132, 238);
+}
+
+
